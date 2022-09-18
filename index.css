@@ -259,11 +259,11 @@ main{
     visibility: hidden;
 }
 .active{
-    visibility: visible;
+    visibility: visible; !important
     transition: all .4s ease-in-out;
 }
 .inactive{
-    visibility: hidden;
+    visibility: hidden; !important
     transition: all .4s ease-in-out;
 }
 section{
