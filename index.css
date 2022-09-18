@@ -111,7 +111,7 @@ main{
     width: 60%;
     margin: -60px auto auto;
 }
-/*@keyframes show {
+@keyframes show {
     0%{opacity: 0; transform: scale(0)}
     95%{opacity: 0; transform: scale(0)}
     99%{transform: scale(1)}
@@ -153,7 +153,7 @@ main{
     0%{width: 0; visibility: visible;}
     90%{width: 100%; opacity: 100%;}
     100%{width: 100%; opacity: 0;}
-}*/
+}
 .progress-bar{
     visibility: hidden;
     width: 50%;
@@ -252,6 +252,12 @@ main{
 .direc-1-text{
     margin: 10px;
 }
+.visible{
+    visibility: visible;
+}
+.invisible{
+    visibility: hidden;
+}
 .active{
     visibility: visible;
     transition: all .4s ease-in-out;
@@ -344,12 +350,6 @@ audio{
     top: 0;
     left: 0;
     position: absolute;
-}
-.visible{
-    visibility: visible;
-}
-.invisible{
-    visibility: hidden;
 }
 .inner-text{
     font-size: 1.5rem;
