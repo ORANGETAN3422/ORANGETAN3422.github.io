@@ -1,0 +1,27 @@
+.card {
+    width: 200px;
+    height: 150px;
+    border-radius: 8px;
+    border: 1px solid #323232;
+
+    font-size: 0.8em;
+    transition: 0.2s ease-in-out all;
+    padding: 1em;
+
+    position: relative;
+}
+
+.card:hover {
+    scale: 105%;
+}
+
+.card-hitbox {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+
+    opacity: 0;
+}

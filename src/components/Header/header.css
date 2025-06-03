@@ -1,0 +1,27 @@
+.top-part {
+    display: flex;
+    flex-direction: row;
+
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+
+    gap: 2em;
+}
+
+.gd-icon {
+    width: 4em;
+    height: 4em;
+
+    animation: spinny 3s infinite linear;
+}
+
+.link-img {
+    width: 2em;
+    height: auto;
+}
+
+@keyframes spinny {
+    0%{rotate: 0;}
+    100%{rotate: 360deg;}
+}
