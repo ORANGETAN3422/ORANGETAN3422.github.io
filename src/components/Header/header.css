@@ -18,6 +18,7 @@ header {
     height: 4em;
 
     animation: spinny 4s infinite linear;
+    user-select: none;
 }
 
 .link-img {

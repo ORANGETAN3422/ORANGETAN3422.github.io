@@ -5,7 +5,9 @@ function Header() {
         <header>
             <div className='top-part'>
                 <h1>ORANGETAN</h1>
-                <img className='gd-icon' src={`${import.meta.env.BASE_URL}cube_23.png`} alt='orang' />
+                <a href='https://gdbrowser.com/u/orangetan3422'>
+                    <img className='gd-icon' src={`${import.meta.env.BASE_URL}cube_23.png`} alt='orang' />
+                </a>
             </div>
             <a href='https://www.youtube.com/@orangetangd'>
                 <img className='link-img' src={`${import.meta.env.BASE_URL}icons/youtube.svg`} alt='yt' />

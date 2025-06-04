@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ProjectCard from './components/ProjectCard/ProjectCard'
+import ProjectContainer from './components/Projects/ProjectContainer'
 import Header from './components/Header/Header'
 import Background from './components/Background/Background'
 import './App.css'
@@ -9,11 +9,7 @@ function App() {
     <>
     <Background />
     <Header />
-
-      <section className='project-section'>
-        <ProjectCard jsonid="kflist" />
-        <ProjectCard jsonid="gdspamtrainer" />
-      </section>
+    <ProjectContainer />      
     </>
   )
 }

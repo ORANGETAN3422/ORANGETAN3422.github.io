@@ -1,15 +1,28 @@
-video {
+.bg-container {
     position: fixed;
     left: 0;
     top: 0;
+    z-index: -100;
+
     width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+video {
+    width: 100%;
+    height: auto;
     min-width: 1440px;
 
-    z-index: -100;
     filter: brightness(60%) blur(2px);
 }
 
-@media only screen and (max-width: 1440px){
+@media only screen and (max-width: 1440px) {
     video {
         width: 1440px;
     }
