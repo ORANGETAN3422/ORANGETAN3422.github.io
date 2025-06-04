@@ -24,6 +24,7 @@ function ProjectCard(props) {
 
     return (
         <div className='card'>
+            <div className='card-border' />
             {!data ? 'Loading...' :
                 <>
                     <input className='card-hitbox' onClick={() => { buttonClick(data.hyperlink) }} type='button' />

@@ -1,3 +1,7 @@
+header {
+    text-shadow: 0 0 25px rgba(0, 0, 0, 0.484);
+}
+
 .top-part {
     display: flex;
     flex-direction: row;
@@ -13,12 +17,17 @@
     width: 4em;
     height: 4em;
 
-    animation: spinny 3s infinite linear;
+    animation: spinny 4s infinite linear;
 }
 
 .link-img {
     width: 2em;
     height: auto;
+    user-select: none;
+}
+
+img {
+    filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.772));
 }
 
 @keyframes spinny {
