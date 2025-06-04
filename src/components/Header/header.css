@@ -21,9 +21,11 @@ header {
 }
 
 .link-img {
-    width: 2em;
-    height: auto;
+    width: auto;
+    height: 2em;
+
     user-select: none;
+    padding: 0.4em;
 }
 
 img {

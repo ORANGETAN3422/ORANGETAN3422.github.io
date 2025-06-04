@@ -10,6 +10,9 @@ function Header() {
             <a href='https://www.youtube.com/@orangetangd'>
                 <img className='link-img' src={`${import.meta.env.BASE_URL}icons/youtube.svg`} alt='yt' />
             </a>
+            <a href='https://github.com/ORANGETAN3422'>
+                <img className='link-img' src={`${import.meta.env.BASE_URL}icons/github.svg`} alt='github' />
+            </a>
             <br />
             <br />
         </header>
