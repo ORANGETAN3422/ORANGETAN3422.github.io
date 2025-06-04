@@ -1,9 +1,15 @@
 video {
     position: fixed;
     top: 0;
-    left: 0;
     width: 100%;
+    min-width: 1440px;
 
     z-index: -100;
     filter: brightness(60%) blur(2px);
+}
+
+@media only screen and (max-width: 1440px){
+    video {
+        width: 1440px;
+    }
 }
