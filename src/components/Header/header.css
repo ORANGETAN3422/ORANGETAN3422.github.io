@@ -21,12 +21,17 @@ header {
     user-select: none;
 }
 
+.social-links {
+    display: flex;
+    flex-direction: row;
+}
+
 .link-img {
     width: auto;
     height: 2em;
 
     user-select: none;
-    padding: 0.4em;
+    padding: 0.7em;
 }
 
 img {
