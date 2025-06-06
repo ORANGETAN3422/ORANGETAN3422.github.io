@@ -5,8 +5,8 @@ function ProjectContainer() {
     return (
         <>
             <section className='project-section'>
-                <ProjectCard jsonid="kflist" />
-                <ProjectCard jsonid="gdspamtrainer" />
+                <ProjectCard projectKey="kf_list" />
+                <ProjectCard projectKey="gd_spam_trainer" />
             </section>
         </>
     );

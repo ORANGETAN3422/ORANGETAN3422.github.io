@@ -1,39 +1,32 @@
 import React, { useEffect, useState } from 'react';
 import './project-card.css';
 
-function ProjectCard(props) {
-    const [data, setData] = useState(null);
+function ProjectCard({ projectKey }) {
+  const [data, setData] = useState(null);
 
-    useEffect(() => {
-        fetch(`${import.meta.env.BASE_URL}card-info.json`)
-            .then((response) => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.json();
-            })
-            .then((jsonData) => setData(jsonData[props.jsonid]))
-            .catch((error) => {
-                console.error('Error fetching JSON:', error);
-            });
-    }, []);
+  useEffect(() => {
+    fetch('/card-info.json')
+      .then((res) => res.json())
+      .then(setData)
+      .catch(console.error);
+  }, []);
 
-    function buttonClick(hyperlink) {
-        window.open(hyperlink, "_self")
-    }
+  if (!data) return <div>Loading...</div>;
 
-    return (
-        <div className='card'>
-            <div className='card-border' />
-            {!data ? 'Loading...' :
-                <>
-                     <input className='card-hitbox' onClick={() => { buttonClick(data.hyperlink) }} type='button' /> 
-                    <h3>{data.title}</h3>
-                    <p>{data.description}</p>
-                </>
-            }
-        </div>
-    )
+  const project = data.project_card_information[projectKey];
+
+  return (
+    <div className="card">
+      <div className="card-border" />
+      <input
+        className="card-hitbox"
+        onClick={() => window.open(project.hyperlink, "_self")}
+        type="button"
+      />
+      <h3>{project.title}</h3>
+      <p>{project.description}</p>
+    </div>
+  );
 }
 
 export default ProjectCard;

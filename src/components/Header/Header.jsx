@@ -9,6 +9,7 @@ function Header() {
                     <img className='gd-icon' src={`${import.meta.env.BASE_URL}cube_23.png`} alt='orang' />
                 </a>
             </div>
+
             <div className='socials-links'>
                 <a href='https://www.youtube.com/@orangetangd'>
                     <img className='link-img' src={`${import.meta.env.BASE_URL}icons/youtube.svg`} alt='yt' />
@@ -20,6 +21,7 @@ function Header() {
                     <img className='link-img' src={`${import.meta.env.BASE_URL}icons/reddit.svg`} alt='reddit' />
                 </a>
             </div>
+            
             <br />
             <br />
         </header>
