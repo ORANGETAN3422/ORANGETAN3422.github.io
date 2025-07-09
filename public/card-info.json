@@ -3,13 +3,13 @@
         "kf_list": {
             "title": "KFList",
             "description": "A list of hardest completions by members of the Karma Farm / Rodit GD team",
-            "hyperlink": "https://orangetan3422.github.io/KFList/",
-            "repository": "https://github.com/ORANGETAN3422/KFList"
+            "hyperlink": "https://kflist.space",
+            "repository": "https://github.com/RoditTeam/roditteam.github.io"
         },
         "gd_spam_trainer": {
             "title": "Spam Trainer",
             "description": "Practise for spacebar spamming and consistency",
-            "hyperlink": "https://orangetan3422.github.io/GDSpamTrainer/",
+            "hyperlink": "https://orangetan.space/GDSpamTrainer/",
             "repository": "https://github.com/ORANGETAN3422/GDSpamTrainer"
         }
     }
