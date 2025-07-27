@@ -7,6 +7,7 @@ function ProjectContainer() {
             <section className='project-section'>
                 <ProjectCard projectKey="kf_list" />
                 <ProjectCard projectKey="gd_spam_trainer" />
+                <ProjectCard projectKey="kf_challenges" />
             </section>
         </>
     );
