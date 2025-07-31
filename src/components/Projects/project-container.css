@@ -1,0 +1,8 @@
+.project-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-con-title {
+    font-size: 2.5em;
+}

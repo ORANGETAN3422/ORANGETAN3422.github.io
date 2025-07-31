@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ProjectContainer from './components/Projects/ProjectContainer'
+import MainSlideshow from './components/MainSlideshow/MainSlideshow'
 import Header from './components/Header/Header'
 import Background from './components/Background/Background'
 import './App.css'
@@ -9,7 +9,7 @@ function App() {
     <>
     <Background />
     <Header />
-    <ProjectContainer />      
+    <MainSlideshow />    
     </>
   )
 }

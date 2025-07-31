@@ -1,0 +1,100 @@
+/* Arrow Buttons */
+.arrow-button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  height: 40px;
+  align-self: center;
+  transform: scaleY(2);
+
+  font-family: "Courier New", Courier, monospace;
+}
+
+.arrow-button:hover {
+  transform: scaleY(2) scale(1.1) translateY(-3%);
+}
+
+/* Layout Container */
+.slideshow-wrapper {
+  position: absolute; /* or 'relative' depending on the context */
+  top: 500px; /* anchors it 500px from the top */
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+
+  display: flex;
+  align-items: flex-start; /* ensures children align to top */
+  justify-content: center;
+
+  width: 100%;
+  max-width: 1000px;
+  height: 500px; /* set a fixed height */
+  overflow: hidden;
+
+  padding: 20px;
+  gap: 20px;
+  box-sizing: border-box;
+
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.slideshow-wrapper.visible {
+  opacity: 1;
+}
+
+/* Slide Content Wrapper */
+.slide-wrapper {
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; /* center horizontally */
+  transition: transform 0.4s ease;
+  animation-duration: 0.4s;
+  animation-fill-mode: forwards;
+  overflow: visible;
+}
+
+/* Slide Animations */
+.slide-right {
+  animation-name: slideInRight;
+}
+
+.slide-left {
+  animation-name: slideInLeft;
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+/* Optional: Styling for content */
+.slide-content {
+  padding: 20px;
+  background: #f5f5f5;
+  border-radius: 10px;
+  max-height: none;
+}
