@@ -1,10 +1,10 @@
 import "./hardest-completions.css";
 
-function LevelCard({ level }) {
+function LevelCard({ index , level }) {
 
   return (
     <div className="level-card">
-      <p>{level}</p>
+      <p>{index + 1} - {level}</p>
     </div>
   );
 }

@@ -15,10 +15,15 @@ function HardestCompletions() {
   if (!list) return <div>Loading...</div>;
 
   return (
-    <div className="completions-container">
-      {list.main_list.map((level, index) => (
-        <LevelCard key={index} level={level} />
-      ))}
+    <div className="completions-wrapper">
+      <h2 className="completions-con-title">My Hardest Completions</h2>
+      <br />
+      <div className="completions-container">
+                <div className="completions-container-border" />
+        {list.main_list.map((level, index) => (
+          <LevelCard key={toString(index) + window.btoa(level)} index={index} level={level} />
+        ))}
+      </div>
     </div>
   );
 }

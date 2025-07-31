@@ -4,9 +4,11 @@ import HardestCompletions from "../HardestCompletions/HardestCompletions";
 import "./main-slideshow.css";
 
 const MainSlideshow = () => {
-  const [currentActive, setCurrentActive] = useState(0);
+  const [currentActive, setCurrentActive] = useState(1);
   const [direction, setDirection] = useState("right");
   const [hasScrolled, setHasScrolled] = useState(false);
+
+  const scrollDist = 60;
 
   const componentMap = {
     0: <ProjectContainer />,
@@ -27,7 +29,7 @@ const MainSlideshow = () => {
 
   useEffect(() => {
     const onScroll = () => {
-      if (window.scrollY > 1) {
+      if (window.scrollY > scrollDist) {
         setHasScrolled(true);
       } else {
         setHasScrolled(false);
