@@ -4,7 +4,7 @@ import HardestCompletions from "../HardestCompletions/HardestCompletions";
 import "./main-slideshow.css";
 
 const MainSlideshow = () => {
-  const [currentActive, setCurrentActive] = useState(1);
+  const [currentActive, setCurrentActive] = useState(0);
   const [direction, setDirection] = useState("right");
   const [hasScrolled, setHasScrolled] = useState(false);
 

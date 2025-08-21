@@ -1,17 +1,18 @@
-import { useState } from 'react'
-import MainSlideshow from './components/MainSlideshow/MainSlideshow'
-import Header from './components/Header/Header'
-import Background from './components/Background/Background'
-import './App.css'
+import { MainListProvider } from "./context/MainListContext";
+import MainSlideshow from "./components/MainSlideshow/MainSlideshow";
+import Header from "./components/Header/Header";
+import Background from "./components/Background/Background";
+
+import './App.css';
 
 function App() {
   return (
-    <>
-    <Background />
-    <Header />
-    <MainSlideshow />    
-    </>
-  )
+    <MainListProvider>
+      <Background />
+      <Header />
+      <MainSlideshow />
+    </MainListProvider>
+  );
 }
 
-export default App
+export default App;

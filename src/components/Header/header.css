@@ -1,44 +1,74 @@
 header {
-    text-shadow: 0 0 25px rgba(0, 0, 0, 0.484);
+  text-shadow: 0 0 25px rgba(0, 0, 0, 0.484);
 }
 
 .top-part {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 
-    vertical-align: middle;
-    justify-content: center;
-    align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
 
-    gap: 2em;
+  gap: 2em;
 }
 
 .gd-icon {
-    width: 4em;
-    height: 4em;
+  width: 4em;
+  height: 4em;
 
-    animation: spinny 4s infinite linear;
-    user-select: none;
+  animation: spinny 4s infinite linear;
+  user-select: none;
 }
 
 .social-links {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .link-img {
-    width: auto;
-    height: 2em;
+  width: auto;
+  height: 2em;
 
-    user-select: none;
-    padding: 0.7em;
+  user-select: none;
+  padding: 0.7em;
 }
 
 img {
-    filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.772));
+  filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.772));
+}
+
+.down-arrow {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+
+  transform: translateY(50px);
+  transition: .5s all ease-in-out;
+}
+
+.down-arrow-img {
+  height: 30px;
+  width: auto;
+  transform: scaleX(110%) scaleY(95%);
+  opacity: 90%;
+}
+
+.down-arrow.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+}
+
+.down-arrow.visible {
+  opacity: 1;
 }
 
 @keyframes spinny {
-    0%{rotate: 0;}
-    100%{rotate: 360deg;}
+  0% {
+    rotate: 0;
+  }
+  100% {
+    rotate: 360deg;
+  }
 }
