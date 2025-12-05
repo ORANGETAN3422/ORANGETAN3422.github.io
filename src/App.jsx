@@ -1,17 +1,10 @@
-import { MainListProvider } from "./context/MainListContext";
-import MainSlideshow from "./components/MainSlideshow/MainSlideshow";
-import Header from "./components/Header/Header";
-import Background from "./components/Background/Background";
-
 import './App.css';
+
+import BackgroundThePlunge from './components/background/BackgroundThePlunge';
 
 function App() {
   return (
-    <MainListProvider>
-      <Background />
-      <Header />
-      <MainSlideshow />
-    </MainListProvider>
+    <BackgroundThePlunge />
   );
 }
 
