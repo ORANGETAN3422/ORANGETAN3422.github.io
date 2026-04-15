@@ -1,0 +1,11 @@
+{
+	"projects": [
+		{
+			"name": "Aredl Roulette",
+			"description": "help",
+			"tags": ["Svelte", "JavaScript"],
+			"link": "https://orangetan3422.github.io/aredl-roulette/",
+			"github": "https://github.com/ORANGETAN3422/aredl-roulette"
+		}
+	]
+}
