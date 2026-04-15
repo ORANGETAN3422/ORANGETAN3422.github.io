@@ -1,11 +1,53 @@
 {
 	"projects": [
 		{
-			"name": "Aredl Roulette",
-			"description": "help",
+			"name": "This Website",
+			"description": "My portfolio. Contains links to my socials, projects I've worked on, and my GD Completions.",
+			"tags": ["SvelteKit", "TypeScript"],
+			"link": "https://orangetan3422.github.io/",
+			"github": "https://github.com/ORANGETAN3422/ORANGETAN3422.github.io"
+		},
+		{
+			"name": "Deltaflag",
+			"description": "A project aimed to document usage, purpose and other information on the Global.Flag array in DELTARUNE's code. Developed my me and Palmforest.",
+			"tags": ["SvelteKit", "TypeScript"],
+			"link": "https://orangetan3422.github.io/deltaflag/",
+			"github": "https://github.com/ORANGETAN3422/deltaflag"
+		},
+		{
+			"name": "AREDL Roulette",
+			"description": "Matcool's original demonlist roulette but with all rated extreme demons, plus more features to customise your runs. (Uses seeded RNG to make your runs more fun)",
 			"tags": ["Svelte", "JavaScript"],
 			"link": "https://orangetan3422.github.io/aredl-roulette/",
 			"github": "https://github.com/ORANGETAN3422/aredl-roulette"
+		},
+		{
+			"name": "Alt Spam",
+			"description": "A website to practice alternating, or alt spamming. Choose 2 keys and a time, measure clicks per second, deviation between clicks and consistency.",
+			"tags": ["Svelte", "TypeScript"],
+			"link": "https://orangetan3422.github.io/alt-spam/",
+			"github": "https://github.com/ORANGETAN3422/alt-spam"
+		},
+		{
+			"name": "Name All Extremes",
+			"description": "How many extreme demons can you name? Powered by AREDL",
+			"tags": ["Svelte", "TypeScript"],
+			"link": "https://orangetan3422.github.io/name-all-extremes/",
+			"github": "https://github.com/ORANGETAN3422/name-all-extremes"
+		},
+		{
+			"name": "KFList",
+			"description": "Super duper old site that hasn't been updated in forever. Made to track the hardest completions of the Karma Farm discord server. Now stands as the only proof I've touched React. I also learnt through this you could use Google Sheets as a bootleg database which is kinda funny.",
+			"tags": ["React", "JavaScript"],
+			"link": "https://orangetan3422.github.io/KFList/",
+			"github": "https://github.com/ORANGETAN3422/KFList"
+		},
+		{
+			"name": "KF Challenges",
+			"description": "Similarly old and dead site that was made a weekly challenge game for the Karma Farm server. It looks cool but its dead now. (Also a relic of Google Sheets Databases)",
+			"tags": ["Svelte", "JavaScript"],
+			"link": "https://orangetan3422.github.io/kf-challenges/",
+			"github": "https://github.com/ORANGETAN3422/kf-challenges"
 		}
 	]
 }
