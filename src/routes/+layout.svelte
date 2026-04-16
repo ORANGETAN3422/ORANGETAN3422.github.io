@@ -1,5 +1,7 @@
 <script lang="ts">
 	import './layout.css';
+	import { page } from '$app/state';
+	import { resolve } from '$app/paths';
 	import favicon from '$lib/assets/cube_23.png';
 	import plungeBg from '$lib/assets/theplunge_bg.png';
 	import birdGd from '$lib/assets/bird_gd.png';
@@ -77,6 +79,23 @@
 			</div>
 			<div class="mt-6 h-px w-150 bg-white/20"></div>
 		</section>
+
+		<nav class="mb-8 flex justify-center gap-8">
+			<a
+				href={resolve('/projects')}
+				class="text-sm tracking-widest uppercase transition-colors {page.url.pathname ===
+				resolve('/projects')
+					? 'font-bold text-white underline underline-offset-4'
+					: 'text-white/50 hover:text-white/90'}">Projects</a
+			>
+			<a
+				href={resolve('/completions')}
+				class="text-sm tracking-widest uppercase transition-colors {page.url.pathname ===
+				resolve('/completions')
+					? 'font-bold text-white underline underline-offset-4'
+					: 'text-white/50 hover:text-white/90'}">Completions</a
+			>
+		</nav>
 
 		{@render children()}
 

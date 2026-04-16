@@ -1,8 +1,11 @@
 <script lang="ts">
 	import githubIcon from '$lib/assets/github_icon.svg';
-	import type { Project } from '$lib/types';
 
-	const { project }: { project: Project } = $props();
+	import type { Project } from '$lib/types';
+	import { expoOut } from 'svelte/easing';
+	import { fly } from 'svelte/transition';
+
+	const { project, index = 0 }: { project: Project; index?: number } = $props();
 
 	const tagColors: Record<string, string> = {
 		Svelte: '#FF3E00',
@@ -26,6 +29,7 @@
 
 <div
 	class="group relative rounded-sm border border-white/10 bg-white/5 backdrop-blur-sm transition-all duration-300 [&:hover:not(:has(a.github-btn:hover))]:border-white/25 [&:hover:not(:has(a.github-btn:hover))]:bg-white/10"
+	transition:fly|global={{ y: 40, duration: 450, delay: index * 50, easing: expoOut }}
 >
 	<a href={project.link} rel="external" class="block p-6">
 		<div class="flex items-start justify-between">

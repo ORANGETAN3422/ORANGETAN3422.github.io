@@ -1,1 +1,58 @@
-{}
+{
+    "completions": [
+        {
+            "name": "Cold Sweat",
+            "id": 63996127,
+            "position": 1,
+            "video": "https://youtu.be/qBSzr4iCPmI" 
+        },
+        {
+            "name": "Conical Depression",
+            "id": 17711004,
+            "position": 2,
+            "video": "https://youtu.be/7Q7tGWOPBMo"
+        },
+        {
+            "name": "Wild Rose",
+            "id": 83676299,
+            "position": 3,
+            "video": "https://youtu.be/XkMDZ1kF3fo"
+        },
+        {
+            "name": "Electric Forest",
+            "id": 93490967,
+            "position": 4,
+            "video": "https://youtu.be/PQpV3NInJY4"
+        },
+        {
+            "name": "Empyrean",
+            "id": 92957491,
+            "position": 5,
+            "video": "https://youtu.be/yR64A9wz-ls"
+        },
+        {
+            "name": "Maths",
+            "id": 108558924,
+            "position": 6,
+            "video": "https://youtu.be/0kC_UoYmQ90"
+        },
+        {
+            "name": "Party Rock Anthem",
+            "id": 83658556,
+            "position": 7,
+            "video": ""
+        },
+        {
+            "name": "9Blue",
+            "id": 95061038,
+            "position": 8,
+            "video": "https://youtu.be/LQlMtEHerPQ"
+        },
+        {
+            "name": "Sephtis",
+            "id": "75857309",
+            "position": 9,
+            "video": "https://youtu.be/re0c9ko0RTQ"
+        }
+    ]
+}
