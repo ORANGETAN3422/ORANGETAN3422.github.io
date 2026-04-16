@@ -65,7 +65,7 @@
 					/>
 				</a>
 				<a
-					href="https://gdbrowser.com/u/orangetan3422"
+					href="https://aredl.net/profile/user/orangetanned"
 					aria-label="Geometry Dash"
 					class="shrink-0 opacity-70 transition-opacity hover:opacity-100"
 				>
