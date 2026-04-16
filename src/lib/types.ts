@@ -11,6 +11,9 @@ export interface Completion {
 	id: number;
 	position: number;
 	video: string;
+	enjoyment?: number;
+	ranking?: number;
+	attempts?: number;
 }
 
 export interface Level {

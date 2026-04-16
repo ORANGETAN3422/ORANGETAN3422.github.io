@@ -2,5 +2,4 @@
 
 orangetan
 
-todo:
-    - find a better way to store completions
+todo: - find a better way to store completions - attempt count, enjoyment and rating on display

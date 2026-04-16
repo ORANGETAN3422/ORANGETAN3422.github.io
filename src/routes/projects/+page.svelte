@@ -9,8 +9,8 @@
 <section class="px-6 pb-32">
 	<div class="mx-auto max-w-5xl">
 		<div class="grid gap-4 sm:grid-cols-2">
-			{#each projects as project, i (project.name)}
-				<ProjectCard {project} index={i} />
+			{#each projects as project (project.name)}
+				<ProjectCard {project} />
 			{/each}
 		</div>
 	</div>
