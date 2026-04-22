@@ -6,6 +6,9 @@
 	const projects: Project[] = projectsJson.projects;
 </script>
 
+<svelte:head>
+	<title>Projects</title>
+</svelte:head>
 <section class="px-6 pb-32">
 	<div class="mx-auto max-w-5xl">
 		<div class="grid gap-4 sm:grid-cols-2">

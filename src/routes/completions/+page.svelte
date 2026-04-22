@@ -45,6 +45,9 @@
 	}
 </script>
 
+<svelte:head>
+	<title>Completions</title>
+</svelte:head>
 <section class="px-6 pb-32">
 	<div class="mx-auto max-w-3xl">
 		<div class="flex h-[60vh] gap-4">
