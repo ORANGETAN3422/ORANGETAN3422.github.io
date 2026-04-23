@@ -22,6 +22,13 @@
 			"github": "https://github.com/ORANGETAN3422/aredl-roulette"
 		},
 		{
+			"name": "MgNoiseGenerator",
+			"description": "Noise Generator for various (currently one) types.",
+			"tags": ["C#", ".NET", "MonoGame"],
+			"link": "https://github.com/ORANGETAN3422/MgNoiseGenerator",
+			"github": ""
+		},
+		{
 			"name": "Alt Spam",
 			"description": "A website to practice alternating, or alt spamming. Choose 2 keys and a time, measure clicks per second, deviation between clicks and consistency.",
 			"tags": ["Svelte", "TypeScript"],

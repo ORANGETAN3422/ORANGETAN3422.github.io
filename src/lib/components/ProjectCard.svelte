@@ -14,7 +14,8 @@
 		Python: '#3776AB',
 		React: '#61DAFB',
 		HTML: '#E34F26',
-		CSS: '#1572B6'
+		CSS: '#1572B6',
+		MonoGame: '#ff0000'
 	};
 
 	function tagStyle(tag: string): string {
